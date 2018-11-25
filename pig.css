@@ -11,7 +11,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(62, 20, 20, 0.5), rgba(62, 20, 20, 0.5)), url(img/back2.jpg);
+    background-image: linear-gradient(rgba(62, 20, 20, 0.5), rgba(62, 20, 20, 0.5)), url(back2.jpg);
     background-size: contain;
     background-position: center;
     font-family: Lato;
@@ -149,9 +149,9 @@ i {
 
 .game-rules {
     color: gray;
-    position: relative;
-    float: right;
-    margin: 0 10px 10px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
 }
 .game-rules-text{
     visibility: hidden;
@@ -164,6 +164,9 @@ i {
     color: white;
     bottom: 20px;
     right: 0px;
+}
+.game-rules-text li {
+    padding: 4px;
 }
 .game-rules:hover .game-rules-text{
     visibility: visible;
