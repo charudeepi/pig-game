@@ -65,7 +65,7 @@ var PG = {
 
     },
     
-    holPGame: function () {
+    holdGame: function () {
 
         if(PG.isPlaying){
 
@@ -117,7 +117,7 @@ var PG = {
 
         document.querySelector('.btn-roll').addEventListener('click', PG.rollDice);
 
-        document.querySelector('.btn-hold').addEventListener('click', PG.holPGame);
+        document.querySelector('.btn-hold').addEventListener('click', PG.holdGame);
 
         document.querySelector('.btn-new').addEventListener('click', PG.newGame);
 
